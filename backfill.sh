@@ -7,7 +7,7 @@ start_date="2021-01-01"
 for i in {0..364}
 do
     # Calculate the date for each iteration
-    current_date=$(date -d "$start_date + $i days" +%Y-%m-%d)
+    current_date=$(date -j -v+${i}d -f "%Y-%m-%d" "$start_date" "+%Y-%m-%d")
 
     # Create a placeholder file or modify an existing file
     echo "Commit for $current_date" > commit.txt
