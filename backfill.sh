@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start date (modify if you want to start on a different day)
-start_date="2024-09-11"
+start_date="2024-09-18"
 
 # Loop through each day of the year
 for i in {0..364}
