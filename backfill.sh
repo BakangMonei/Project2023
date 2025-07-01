@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Start date (modify if you want to start on a different day)
-start_date="2020-02-02"
+# Year-Month-Date
+start_date="2025-06-31"
 
 
 # Loop through each day of the year
