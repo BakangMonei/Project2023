@@ -3,6 +3,7 @@
 # Start date (modify if you want to start on a different day)
 start_date="2024-01-01"
 
+
 # Loop through each day of the year
 for i in {0..364}
 do
